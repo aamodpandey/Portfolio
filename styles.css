@@ -179,7 +179,7 @@ nav a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('bg-img.jpg');
+    background-image: url('img/bg-img.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -574,7 +574,7 @@ textarea {
 }
 
 .printing-text:after {
-    content: url("leaf.png");
+    content: url("img/leaf.png");
     display: inline-block;
     animation: blink 1s infinite;
 }
