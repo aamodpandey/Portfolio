@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link href="brand.png" rel="icon" type="image/png">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans:wght@500;700&family=Lato:wght@700&family=Roboto:wght@400&display=swap"
+          rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+<header>
+    <nav>
+        <div style="display: flex; align-items: center">
+            <img alt="" src="brand.png" style=" width: 80px">
+            <span style="padding: 1rem; font-weight: 500; font-size: 2rem">GreenPixels</span>
+            <span style="position: relative; left: -5.4rem; top: 1.5rem; font-size: 0.8rem; white-space: nowrap">By Aamod</span>
+        </div>
+        <button class="navbar-toggler" style="background-color: rgba(0,0,0,0); border: 0"><span
+                class="navbar-toggler-icon">
+            <svg class="bi bi-list"
+                 fill="white" height="32"
+                 viewBox="0 0 16 16"
+                 width="32"
+                 xmlns="http://www.w3.org/2000/svg">
+                 <path d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                       fill-rule="evenodd"/>
+            </svg>
+        </span>
+        </button>
+        <button class="navbar-toggler-down" style="background-color: rgba(0,0,0,0); border: 0"><span
+                class="navbar-toggler-icon">
+        <svg class="bi bi-chevron-down" fill="white" height="25" viewBox="0 0 16 16" width="25"
+             xmlns="http://www.w3.org/2000/svg">
+            <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+                  fill-rule="evenodd"/>
+         </svg>
+        </span>
+        </button>
+        <div id="empty"></div>
+        <ul class="collapsible">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section data-aos="fade-in" data-aos-duration="1000" id="home">
+        <div class="dark-overlay"></div>
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <div style="min-height: 220px; display: flex; align-items: center; padding:0 1rem 1rem 4rem">
+                <p class="printing-text"> Hi, I'm Aamod Vardhan Pandey, a web developer based in Lucknow, India. I
+                    specialize in creating modern,
+                    responsive websites and web applications using the latest technologies. </p>
+            </div>
+            <div></div>
+            <a class="btn contact-button" href="#contact">Contact Me</a>
+        </div>
+    </section>
+    <section data-aos="fade-up" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+
+            <p>I am a skilled web developer with expertise in Node.js, Express.js, MongoDB, React.js, JQuery, and
+                HTML/CSS. With a strong command of the English language and a natural aptitude for logical thinking and
+                problem-solving, I am able to effectively collaborate with others and find practical solutions to
+                complex issues. I am a fast learner and possess proficient communication skills, which enable me to work
+                well in teams and achieve project objectives. I am excited to contribute my skills and experience to a
+                dynamic and innovative team in the field of web development.</p>
+
+
+            <h3 class="subheading">I am skilled in:</h3>
+            <div class="img-container">
+                <img class="icon" data-aos="zoom-in-up" data-aos-duration="1000"
+                     data-aos-easing="ease-out" data-aos-offset="100"
+                     src="node.png">
+                <img class="icon" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease-out"
+                     data-aos-offset="100"
+                     src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg">
+                <img class="icon" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease-out"
+                     data-aos-offset="100"
+                     src="node-express.png">
+                <img class="icon" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease-out"
+                     data-aos-offset="100"
+                     src="mongo.svg">
+                <img class="icon" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease-out"
+                     data-aos-offset="100"
+                     src="bootstrappng.png">
+            </div>
+            <h3 class="subheading">Alongwith...</h3>
+            <div class="additional">
+                <ul class="skill-set">
+                    <li class="list-item"> Competitive Programming</li>
+                    <h4 class="list-item" style="text-align: center">AND</h4>
+                    <li class="list-item"> Data Structures and Algorithms</li>
+                </ul>
+
+            </div>
+
+        </div>
+    </section>
+    <section data-aos="fade-up" id="services">
+        <div class="container" style=" padding: 0 2.5rem; max-width: 1500px">
+            <h2>Services</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <h3>Full-stack web application development</h3>
+                    <p> Using Node.js, Express.js, and MongoDB, I can create dynamic web applications that meet your
+                        specific needs.</p>
+                </div>
+                <div class="service">
+                    <h3>Responsive website design</h3>
+                    <p>I can design and develop stunning and responsive websites using React.js, JQuery, plain
+                        JavaScript, HTML, and CSS, ensuring a seamless user experience across all devices.</p>
+                </div>
+                <div class="service">
+                    <h3>Web Application Development</h3>
+                    <p>I can optimize your website's performance, speed, and SEO to improve its online visibility and
+                        search engine rankings.</p>
+                </div>
+                <div class="service service4">
+                    <h3>API development and integration</h3>
+                    <p> I can build and integrate custom APIs to help you streamline your business operations and data
+                        management.</p>
+                </div>
+                <div class="service service5">
+                    <h3>Website maintenance and support</h3>
+                    <p>I can provide ongoing website maintenance and support to ensure that your website remains
+                        up-to-date, secure, and functioning at optimal levels.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section data-aos="fade-up" id="portfolio">
+        <div class="container">
+            <h2>Portfolio</h2>
+            <p>Check out some of my recent projects:</p>
+            <ol class="block">
+                <li><h3>Full-stack web development project: YelpCamp</h3>
+                    <div class="grid">
+                        <img alt="" data-aos="fade-right" data-aos-duration="1000" src="yelpcamp.jpeg">
+                        <div data-aos="fade-left" data-aos-duration="1000"><p>YelpCamp, inspired by Colt Steele's
+                            project, is a full-stack web application
+                            developed by me.
+                            I
+                            enhanced its aesthetics, performance, and features, including validation checks on the
+                            server
+                            side, pagination using indexing in MongoDB, and restrictions on image size and number of
+                            uploads. I also implemented a more aesthetically pleasing layout using MUI CSS, ensured
+                            responsiveness, and added security measures to make it robust.</p></div>
+                    </div>
+                </li>
+                <li><h3>SimonXDoctorWho - A Creative Twist to the Classic Memory Game</h3>
+                    <div class="grid 2">
+                        <img alt="" data-aos="fade-left" data-aos-duration="1000" src="simon.jpeg">
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <p>I built SimonXDoctorWho from scratch using HTML, CSS, JavaScript, and jQuery. As a fan of
+                                Doctor
+                                Who, I added Doctor Who-themed elements such as TARDIS sound and animation, along with
+                                images
+                                from the show. I improved the game's aesthetics and made it touch-friendly on mobile
+                                devices. I
+                                also implemented features such as game over, high score, and restart. Overall,
+                                SimonXDoctorWho
+                                was a fun challenge that allowed me to showcase my creativity and programming
+                                skills.</p>
+                        </div>
+                    </div>
+                </li>
+                <li><h3>React TODO App with Context, Hooks, and Reducers</h3>
+                    <div class="grid 3">
+                        <img alt="" data-aos="fade-right" data-aos-duration="1000" src="todos.jpeg"
+                        >
+                        <div data-aos="fade-left" data-aos-duration="1000">
+                            <p>This React TODO app was built using functional components and utilizes the power of
+                                context,
+                                hooks, and reducers. Inspired by Colt Steele's React course, I enhanced the app to
+                                include a
+                                dark mode, a restore todos button, and local storage persistence, allowing changes to
+                                persist
+                                even after reloads. With a clean and intuitive interface, this app showcases my
+                                proficiency
+                                in
+                                React development and my ability to integrate multiple features into a single
+                                project.</p>
+                        </div>
+                    </div>
+                </li>
+
+                <li><h3>Lights Out Game - Customizable & Responsive</h3>
+                    <div class="grid 4">
+                        <img alt="" data-aos="fade-left" data-aos-duration="1000" src="lightsout.jpeg">
+                        <div data-aos="fade-right" data-aos-duration="1000">
+                            <p>Inspired by Colt Steele's Lights Out project, I built a customizable and responsive
+                                version of
+                                the game. Players can manually enter the number of rows and columns they want to play
+                                with, and
+                                the game adjusts accordingly. The layout is responsive and visually appealing, making
+                                for a
+                                great user experience. This project was built using React and styled with CSS.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <h3>Color Picker App</h3>
+                    <div class="grid 5">
+                        <img alt="" data-aos="fade-right" data-aos-duration="1000" src="colour.jpeg"
+                        >
+                        <div data-aos="fade-left" data-aos-duration="1000">
+                            <p>A colorful web app created using React, which helps you select and preview colors with
+                                ease.
+                                Inspired by my love for design and creativity, and built using the React framework, this
+                                app
+                                allows you to easily select and copy the HEX or RGB values of any color you like. The
+                                app
+                                also
+                                includes a built-in color palette for your convenience. This project is a testament to
+                                my
+                                skills
+                                as a Full-Stack Web Developer and showcases my proficiency in working with React.</p>
+                        </div>
+                    </div>
+                </li>
+            </ol>
+        </div>
+    </section>
+    <section data-aos="fade-up" id="contact">
+        <div class="container form">
+            <h2>Contact Me</h2>
+            <form action="https://formspree.io/f/mrgvybde"
+                  class="contact-form"
+                  data-aos="zoom-in"
+                  data-aos-duration="800" data-aos-easing="ease-in-back" method="POST"
+            >
+                <label for="name">Name:
+                </label><input id="name" name="name" required type="text">
+                <label for="email">Email:
+                </label><input id="email" name="email" required type="email">
+                <label for="message">Message:
+                </label><textarea id="message" name="message" required></textarea>
+                <button class="btn" type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>Copyright &copy; Aamod Vardhan Pandey</p>
+</footer>
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
+</body>
+</html>
