@@ -334,8 +334,12 @@ nav a {
 
 .contact-button {
     transition: all 0.3s ease-in-out;
+
 }
 
+.send-btn {
+    padding: 1rem 2rem;
+}
 
 .contact-form input[type="text"], .contact-form input[type="email"], .contact-form textarea {
     display: block;
@@ -383,18 +387,19 @@ footer p {
 
 .social-icons {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 4px
 }
 
-.social-icons li {
-    margin-right: 1.25rem;
+.social-icons:hover, .social-icons:active {
+    box-shadow: inset 0 0 0 0.2rem #0077b7
 }
 
-.social-icons a {
-    color: #fff;
-    font-size: 1.5rem;
-}
 
 .collapsible.show {
     max-height: 500px;
