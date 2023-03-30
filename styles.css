@@ -89,6 +89,14 @@ p, .skill-set, #portfolio li {
     margin: 1rem 1rem 0 0;
 }
 
+#portfolio a {
+    display: inline-block;
+}
+
+#portfolio a:hover {
+    color: #006bc2;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
