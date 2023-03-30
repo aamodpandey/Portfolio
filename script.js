@@ -48,14 +48,11 @@ form.addEventListener('submit', (event) => {
     }
 });
 const navbarToggler = document.querySelector('.navbar-toggler');
-const navbarTogglerDown = document.querySelector('.navbar-toggler-down');
 const navbarCollapse = document.querySelector('.collapsible');
 navbarToggler.addEventListener('click', () => {
     navbarCollapse.classList.toggle('show');
 });
-navbarTogglerDown.addEventListener('click', () => {
-    navbarCollapse.classList.toggle('show');
-});
+
 const printingText = document.querySelector('.printing-text');
 let text = printingText.innerText;
 let index = 0;

@@ -17,11 +17,11 @@
 <header>
     <nav>
         <div style="display: flex; align-items: center">
-            <img alt="" src="img/brand.png" style=" width: 80px">
-            <span style="padding: 1rem; font-weight: 500; font-size: 2rem">GreenPixels</span>
-            <span style="position: relative; left: -5.4rem; top: 1.5rem; font-size: 0.8rem; white-space: nowrap">By Aamod</span>
+            <img alt="" id="brand-icon" src="img/brand.png">
+            <span id="brand-name">GreenPixels</span>
+            <span id="brand-name-subscript">By Aamod</span>
         </div>
-        <button class="navbar-toggler" style="background-color: rgba(0,0,0,0); border: 0"><span
+        <button class="navbar-toggler" style="background-color: rgba(0,0,0,0); border: 0; margin-left: auto"><span
                 class="navbar-toggler-icon">
             <svg class="bi bi-list"
                  fill="white" height="32"
@@ -33,16 +33,7 @@
             </svg>
         </span>
         </button>
-        <button class="navbar-toggler-down" style="background-color: rgba(0,0,0,0); border: 0"><span
-                class="navbar-toggler-icon">
-        <svg class="bi bi-chevron-down" fill="white" height="25" viewBox="0 0 16 16" width="25"
-             xmlns="http://www.w3.org/2000/svg">
-            <path d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
-                  fill-rule="evenodd"/>
-         </svg>
-        </span>
-        </button>
-        <div id="empty"></div>
+
         <ul class="collapsible">
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -57,7 +48,7 @@
         <div class="dark-overlay"></div>
         <div class="container">
             <h1>Welcome to My Portfolio</h1>
-            <div style="min-height: 220px; display: flex; align-items: center; padding:0 1rem 1rem 4rem">
+            <div style="min-height: 220px; display: flex; align-items: center; padding:0 1rem 4rem 1rem">
                 <p class="printing-text"> Hi, I'm Aamod Vardhan Pandey, a web developer based in Lucknow, India. I
                     specialize in creating modern,
                     responsive websites and web applications using the latest technologies. </p>
@@ -92,7 +83,7 @@
                 <img class="icon" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease-out"
                      data-aos-offset="100"
                      src="img/mongo.svg">
-                <img class="icon" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease-out"
+                <img class="icon fullwidth" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease-out"
                      data-aos-offset="100"
                      src="img/bootstrappng.png">
             </div>
