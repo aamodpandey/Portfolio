@@ -6,8 +6,7 @@ function positionContainer() {
     const headerHeight = document.querySelector('header').offsetHeight;
     document.querySelector('#home').style.paddingTop = `${headerHeight}px`;
 }
-
-window.addEventListener('load', positionContainer);
+positionContainer();
 window.addEventListener('resize', positionContainer);
 
 
