@@ -2,20 +2,14 @@ const form = document.querySelector('.contact-form');
 const nameInput = document.getElementById('name');
 const emailInput = document.getElementById('email');
 const messageInput = document.getElementById('message');
-const sections = document.querySelectorAll("section.fade");
-// const sectionObserver = new IntersectionObserver((entries) => {
-//     entries.forEach((entry) => {
-//         if (entry.isIntersecting) {
-//             entry.target.classList.add("is-visible");
-//         } else {
-//             entry.target.classList.remove("is-visible");
-//         }
-//     });
-// });
+function positionContainer() {
+    const headerHeight = document.querySelector('header').offsetHeight;
+    document.querySelector('#home').style.paddingTop = `${headerHeight}px`;
+}
 
-// sections.forEach((section) => {
-//     sectionObserver.observe(section);
-// });
+window.addEventListener('load', positionContainer);
+window.addEventListener('resize', positionContainer);
+
 
 const navLinks = document.querySelectorAll('.collapsible li');
 navLinks.forEach(link => {
