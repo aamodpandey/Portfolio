@@ -19,11 +19,8 @@ body {
     line-height: 1.5;
     color: #fff;
     background-color: #222;
-    -webkit-font-smoothing: antialiased;
     max-width: 100%;
     overflow-x: hidden;
-    /*-ms-overflow-style: none;*/
-    /*scrollbar-width: none;*/
 }
 
 .container {
@@ -165,7 +162,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0.2rem 1.4rem 0.2rem 1rem;
-    -webkit-backdrop-filter: blur(6px);
     backdrop-filter: blur(6px);
     font-family: 'Montserrat', sans-serif;
 }
@@ -459,7 +455,6 @@ footer p {
         width: 100%;
         overflow: hidden;
         transition: max-height 0.5s ease-in-out;
-        -webkit-backdrop-filter: blur(6px);
         backdrop-filter: blur(6px);
         position: absolute;
         top: 100%;
