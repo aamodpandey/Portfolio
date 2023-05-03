@@ -1,270 +1,396 @@
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>My Portfolio</title>
-<!--     <link rel="preload" href="img/bg-img.jpg" as="image"> -->
-<!--     <link rel="preload" href="https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEORF8Al_uysnfOo9th_24qS9LKeVDM2MKUdwUVQzvxp3937xkyQy9Z-VgYffSqxWh7zqcddSoBgh0Wn7oA6kdkuFS4oI=w1920-h947" as="image"> -->
-    <link href="img/brand.png" rel="icon" type="image/png">
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link href="https://fonts.googleapis.com" rel="preconnect">
-    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans:wght@500;700&family=Lato:wght@700&family=Roboto:wght@400&display=swap"
-          rel="stylesheet">
-    <link href="./styles.css" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="preload" href="img/bg-img.jpg" as="image">
-
-</head>
-<body>
-<header>
-    <nav>
+    <!--     <link rel="preload" href="img/bg-img.jpg" as="image"> -->
+    <!--     <link rel="preload" href="https://lh3.googleusercontent.com/u/0/drive-viewer/AAOQEORF8Al_uysnfOo9th_24qS9LKeVDM2MKUdwUVQzvxp3937xkyQy9Z-VgYffSqxWh7zqcddSoBgh0Wn7oA6kdkuFS4oI=w1920-h947" as="image"> -->
+    <link href="img/brand.png" rel="icon" type="image/png" />
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Open+Sans:wght@500;700&family=Lato:wght@700&family=Roboto:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="preload" href="img/bg-img.jpg" as="image" />
+  </head>
+  <body>
+    <header>
+      <nav>
         <div style="display: flex; align-items: center">
-            <img alt="" id="brand-icon" src="img/brand.png">
-            <span id="brand-name">GreenPixels</span>
-            <span id="brand-name-subscript">By Aamod</span>
+          <img alt="" id="brand-icon" src="img/brand.png" />
+          <span id="brand-name">GreenPixels</span>
+          <span id="brand-name-subscript">By Aamod</span>
         </div>
-        <button class="navbar-toggler" style="background-color: rgba(0,0,0,0); border: 0; margin-left: auto"><span
-                class="navbar-toggler-icon">
-            <svg class="bi bi-list"
-                 fill="white" height="32"
-                 viewBox="0 0 16 16"
-                 width="32"
-                 xmlns="http://www.w3.org/2000/svg">
-                 <path d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-                       fill-rule="evenodd"/>
+        <button
+          class="navbar-toggler"
+          style="
+            background-color: rgba(0, 0, 0, 0);
+            border: 0;
+            margin-left: auto;
+          "
+        >
+          <span class="navbar-toggler-icon">
+            <svg
+              class="bi bi-list"
+              fill="white"
+              height="32"
+              viewBox="0 0 16 16"
+              width="32"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                fill-rule="evenodd"
+              />
             </svg>
-        </span>
+          </span>
         </button>
 
         <ul class="collapsible">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
-</header>
-<main>
-    <section data-aos="fade-in" data-aos-duration="1000" id="home">
+      </nav>
+    </header>
+    <main>
+      <section data-aos="fade-in" data-aos-duration="1000" id="home">
         <div class="dark-overlay"></div>
         <div class="container">
-            <h1>Welcome to My Portfolio</h1>
-            <div class="profile-picture"></div>
-            <div style="min-height: 220px; display: flex; align-items: center; padding:0 1rem 0 1rem; position: relative; top: -2rem">
-                <p class="printing-text">Hi, I'm Aamod Vardhan Pandey, a full-stack web developer based in Lucknow,
-                    India. I specialize in creating modern, responsive websites and web applications using the latest
-                    technologies. Let's work together to build something great!</p>
-            </div>
-            <div></div>
-            <a class="btn contact-button" href="#contact">Contact Me</a>
+          <h1>Welcome to My Portfolio</h1>
+          <div class="profile-picture"></div>
+          <div
+            style="
+              min-height: 220px;
+              display: flex;
+              align-items: center;
+              padding: 0 1rem 0 1rem;
+              position: relative;
+              top: -2rem;
+            "
+          >
+            <p class="printing-text">
+              Hi, I'm Aamod Vardhan Pandey, a full-stack web developer based in
+              Lucknow, India. I specialize in creating modern, responsive
+              websites and web applications using the latest technologies. Let's
+              work together to build something great!
+            </p>
+          </div>
+          <div></div>
+          <a class="btn contact-button" href="#contact">Contact Me</a>
         </div>
-    </section>
-    <section data-aos="fade-up" id="about">
+      </section>
+      <section data-aos="fade-up" id="about">
         <div class="container">
-            <h2>About Me</h2>
+          <h2>About Me</h2>
 
-            <p>I am a skilled web developer with expertise in Node.js, Express.js, MongoDB, React.js, JQuery, and
-                HTML/CSS. With a strong command of the English language and a natural aptitude for logical thinking and
-                problem-solving, I am able to effectively collaborate with others and find practical solutions to
-                complex issues. I am a fast learner and possess proficient communication skills, which enable me to work
-                well in teams and achieve project objectives. I am excited to contribute my skills and experience to a
-                dynamic and innovative team in the field of web development.</p>
+          <p>
+            I am a skilled web developer with expertise in Node.js, Express.js,
+            MongoDB, React.js, JQuery, and HTML/CSS. With a strong command of
+            the English language and a natural aptitude for logical thinking and
+            problem-solving, I am able to effectively collaborate with others
+            and find practical solutions to complex issues. I am a fast learner
+            and possess proficient communication skills, which enable me to work
+            well in teams and achieve project objectives. I am excited to
+            contribute my skills and experience to a dynamic and innovative team
+            in the field of web development.
+          </p>
 
-
-            <h3 class="subheading">I am skilled in:</h3>
-            <div class="img-container">
-                <img class="icon" data-aos="zoom-in-up" data-aos-duration="1000"
-                     data-aos-easing="ease-out" data-aos-offset="100"
-                     src="img/node.png">
-                <img class="icon" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease-out"
-                     data-aos-offset="100"
-                     src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg">
-                <img class="icon" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease-out"
-                     data-aos-offset="100"
-                     src="img/node-express.png">
-                <img class="icon" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease-out"
-                     data-aos-offset="100"
-                     src="img/mongo.svg">
-                <img class="icon fullwidth" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="ease-out"
-                     data-aos-offset="100"
-                     src="img/bootstrappng.png">
-            </div>
-            <h3 class="subheading">Alongwith...</h3>
-            <div class="additional">
-                <ul class="skill-set">
-                    <li class="list-item"> Competitive Programming</li>
-                    <h4 class="list-item" style="text-align: center">AND</h4>
-                    <li class="list-item"> Data Structures and Algorithms</li>
-                </ul>
-
-            </div>
-
+          <h3 class="subheading">I am skilled in:</h3>
+          <div class="img-container">
+            <img
+              class="icon"
+              data-aos="zoom-in-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-out"
+              data-aos-offset="100"
+              src="img/node.png"
+            />
+            <img
+              class="icon"
+              data-aos="zoom-in-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-out"
+              data-aos-offset="100"
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+            />
+            <img
+              class="icon"
+              data-aos="zoom-in-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-out"
+              data-aos-offset="100"
+              src="img/node-express.png"
+            />
+            <img
+              class="icon"
+              data-aos="zoom-in-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-out"
+              data-aos-offset="100"
+              src="img/mongo.svg"
+            />
+            <img
+              class="icon fullwidth"
+              data-aos="zoom-in-up"
+              data-aos-duration="1000"
+              data-aos-easing="ease-out"
+              data-aos-offset="100"
+              src="img/bootstrappng.png"
+            />
+          </div>
+          <h3 class="subheading">Alongwith...</h3>
+          <div class="additional">
+            <ul class="skill-set">
+              <li class="list-item">Competitive Programming</li>
+              <h4 class="list-item" style="text-align: center">AND</h4>
+              <li class="list-item">Data Structures and Algorithms</li>
+            </ul>
+          </div>
         </div>
-    </section>
-    <section data-aos="fade-up" id="services">
-        <div class="container" style=" padding: 0 2.5rem; max-width: 1500px">
-            <h2>Services</h2>
-            <div class="services-grid">
-                <div class="service">
-                    <h3>Full-stack web application development</h3>
-                    <p> Using Node.js, Express.js, and MongoDB, I can create dynamic web applications that meet your
-                        specific needs.</p>
-                </div>
-                <div class="service">
-                    <h3>Responsive website design</h3>
-                    <p>I can design and develop stunning and responsive websites using React.js, JQuery, plain
-                        JavaScript, HTML, and CSS, ensuring a seamless user experience across all devices.</p>
-                </div>
-                <div class="service">
-                    <h3>Web Application Development</h3>
-                    <p>I can optimize your website's performance, speed, and SEO to improve its online visibility and
-                        search engine rankings.</p>
-                </div>
-                <div class="service service4">
-                    <h3>API development and integration</h3>
-                    <p> I can build and integrate custom APIs to help you streamline your business operations and data
-                        management.</p>
-                </div>
-                <div class="service service5">
-                    <h3>Website maintenance and support</h3>
-                    <p>I can provide ongoing website maintenance and support to ensure that your website remains
-                        up-to-date, secure, and functioning at optimal levels.</p>
-                </div>
-
+      </section>
+      <section data-aos="fade-up" id="services">
+        <div class="container" style="padding: 0 2.5rem; max-width: 1500px">
+          <h2>Services</h2>
+          <div class="services-grid">
+            <div class="service">
+              <h3>Full-stack web application development</h3>
+              <p>
+                Using Node.js, Express.js, and MongoDB, I can create dynamic web
+                applications that meet your specific needs.
+              </p>
             </div>
+            <div class="service">
+              <h3>Responsive website design</h3>
+              <p>
+                I can design and develop stunning and responsive websites using
+                React.js, JQuery, plain JavaScript, HTML, and CSS, ensuring a
+                seamless user experience across all devices.
+              </p>
+            </div>
+            <div class="service">
+              <h3>Web Application Development</h3>
+              <p>
+                I can optimize your website's performance, speed, and SEO to
+                improve its online visibility and search engine rankings.
+              </p>
+            </div>
+            <div class="service service4">
+              <h3>API development and integration</h3>
+              <p>
+                I can build and integrate custom APIs to help you streamline
+                your business operations and data management.
+              </p>
+            </div>
+            <div class="service service5">
+              <h3>Website maintenance and support</h3>
+              <p>
+                I can provide ongoing website maintenance and support to ensure
+                that your website remains up-to-date, secure, and functioning at
+                optimal levels.
+              </p>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
 
-    <section data-aos="fade-up" id="portfolio">
+      <section data-aos="fade-up" id="portfolio">
         <div class="container">
-            <h2>Portfolio</h2>
-            <p>Check out some of my recent projects:</p>
-            <ol class="block">
-                <li><a href="https://campified.onrender.com/" target="_blank"><h3>Full-stack web development
-                    project: Campified</h3></a>
-                    <div class="grid">
-                        <img alt="" data-aos="fade-right" data-aos-duration="1000" src="img/yelpcamp.jpeg">
-                        <div data-aos="fade-left" data-aos-duration="1000"><p>Campified, inspired by Colt Steele's
-                            project, is a full-stack web application
-                            developed by me.
-                            I
-                            enhanced its aesthetics, performance, and features, including validation checks on the
-                            server
-                            side, email verification using Nodemailer, pagination using indexing in MongoDB, and restrictions on image size and number of
-                            uploads. I also implemented a more aesthetically pleasing layout using MUI CSS, ensured
-                            responsiveness, and added security measures to make it robust.</p></div>
-                    </div>
-                </li>
-                <li><a href="https://aamodpandey.github.io/SimonXDoctorWho/" target="_blank"><h3>SimonXDoctorWho - A
-                    Creative Twist to the Classic Memory Game</h3>
-                </a>
-                    <div class="grid 2">
-                        <img alt="" data-aos="fade-left" data-aos-duration="1000" src="img/simon.jpeg">
-                        <div data-aos="fade-right" data-aos-duration="1000">
-                            <p>I built SimonXDoctorWho from scratch using HTML, CSS, JavaScript, and jQuery. As a fan of
-                                Doctor
-                                Who, I added Doctor Who-themed elements such as TARDIS sound and animation, along with
-                                images
-                                from the show. I improved the game's aesthetics and made it touch-friendly on mobile
-                                devices. I
-                                also implemented features such as game over, high score, and restart. Overall,
-                                SimonXDoctorWho
-                                was a fun challenge that allowed me to showcase my creativity and programming
-                                skills.</p>
-                        </div>
-                    </div>
-                </li>
-                <li><a href="https://todo-react-aamod.netlify.app/" target="_blank"><h3>React TODO App with Context,
-                    Hooks, and Reducers</h3></a>
-                    <div class="grid 3">
-                        <img alt="" data-aos="fade-right" data-aos-duration="1000" src="img/todos.jpeg"
-                        >
-                        <div data-aos="fade-left" data-aos-duration="1000">
-                            <p>This React TODO app was built using functional components and utilizes the power of
-                                context,
-                                hooks, and reducers. Inspired by Colt Steele's React course, I enhanced the app to
-                                include a
-                                dark mode, a restore todos button, and local storage persistence, allowing changes to
-                                persist
-                                even after reloads. With a clean and intuitive interface, this app showcases my
-                                proficiency
-                                in
-                                React development and my ability to integrate multiple features into a single
-                                project.</p>
-                        </div>
-                    </div>
-                </li>
+          <h2>Portfolio</h2>
+          <p>Check out some of my recent projects:</p>
+          <ol class="block" style="list-style: none">
+            <li>
+              <a href="https://campified.up.railway.app/" target="_blank"
+                ><h3>1. Full-stack web development project: Campified</h3></a
+              >
+              <div class="grid">
+                <img
+                  alt=""
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  src="img/campified.PNG"
+                />
+                <div data-aos="fade-left" data-aos-duration="1000">
+                  <p>
+                    Campified is a full-stack web app for discovering and
+                    sharing camping sites. Built with Node.js, Express, and
+                    MongoDB, it features a modern, user-centric design with a
+                    professional navbar, custom dropdowns, and beautiful
+                    typography. The backend is secure and efficient, with Helmet
+                    and HTML sanitation to prevent attacks, and Passport.js for
+                    user authentication. Innovative features include efficient
+                    pagination, truncated descriptions, and Mapbox integration
+                    for editing campground locations. Personalization options
+                    allow users to customize their campgrounds and see their
+                    username in the navbar. Campified optimizes image management
+                    with Cloudinary and Multer, and is regularly updated and
+                    maintained for optimal performance and user satisfaction.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a
+                href="https://aamodpandey.github.io/MemoryOfTheDoctor/"
+                target="_blank"
+                ><h3>2. Time Lord's Memory</h3>
+              </a>
+              <div class="grid 2">
+                <img
+                  alt=""
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  src="img/timelord.PNG"
+                />
+                <div data-aos="fade-right" data-aos-duration="1000">
+                  <p>
+                    Time Lord's Memory is a fun and challenging memory game with
+                    visually appealing design and engaging gameplay. Utilizing
+                    front-end technologies such as jQuery and jQueryUI
+                    libraries, the game's core functionality includes button
+                    animations, sound effects, and scorekeeping. It employs
+                    advanced features such as asynchronous functions and
+                    timeouts to create a seamless gaming experience. The app
+                    features a custom-designed modal for game instructions and
+                    user interactions using responsive design principles and
+                    Bootstrap. Continuously updated with new features and
+                    optimizations, Time Lord's Memory showcases my skills in
+                    front-end development and my ability to create seamless user
+                    experiences.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="https://youtu.be/MO7M6n9ejQo" target="_blank"
+                ><h3>3. Colours App</h3></a
+              >
+              <div class="grid 5">
+                <img
+                  alt=""
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  src="img/colour.png"
+                />
+                <div data-aos="fade-left" data-aos-duration="1000">
+                  <p>
+                    Colours App is a React web app I developed for colour
+                    conversion and manipulation. It features a custom level
+                    slider and a dropdown for switching colour modes. To avoid
+                    generic Material UI components, I handpicked and customized
+                    Node packages to better implement the design plan I had in
+                    mind. As the course was with class components, I worked
+                    harder to write and understand the extra code. Additionally,
+                    the app is responsive, rearranging elements as the screen
+                    size changes. Colours App showcases my ability to create a
+                    functional, visually-pleasing web app with custom
+                    components.
+                  </p>
+                </div>
+              </div>
+            </li>
 
-                <li><a href="https://aamodpandey.github.io/lightsout/" target="_blank"><h3>Lights Out Game -
-                    Customizable & Responsive</h3></a>
-                    <div class="grid 4">
-                        <img alt="" data-aos="fade-left" data-aos-duration="1000" src="img/lightsout.jpeg">
-                        <div data-aos="fade-right" data-aos-duration="1000">
-                            <p>Inspired by Colt Steele's Lights Out project, I built a customizable and responsive
-                                version of
-                                the game. Players can manually enter the number of rows and columns they want to play
-                                with, and
-                                the game adjusts accordingly. The layout is responsive and visually appealing, making
-                                for a
-                                great user experience. This project was built using React and styled with CSS.</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <a href="https://youtu.be/MO7M6n9ejQo" target="_blank"><h3>Colour Picker App</h3></a>
-                    <div class="grid 5">
-                        <img alt="" data-aos="fade-right" data-aos-duration="1000" src="img/colour.jpeg"
-                        >
-                        <div data-aos="fade-left" data-aos-duration="1000">
-                            <p>A colourful web app created using React, which helps you select and preview colours with
-                                ease.
-                                Inspired by my love for design and creativity, and built using the React framework, this
-                                app
-                                allows you to easily select and copy the HEX or RGB values of any colour you like. The
-                                app
-                                also
-                                includes a built-in colour palette for your convenience. This project is a testament to
-                                my
-                                skills
-                                as a Full-Stack Web Developer and showcases my proficiency in working with React.</p>
-                        </div>
-                    </div>
-                </li>
-            </ol>
+            <li>
+              <a href="https://aamodpandey.github.io/lightsout/" target="_blank"
+                ><h3>4. Lights Out Game - Customizable & Responsive</h3></a
+              >
+              <div class="grid 4">
+                <img
+                  alt=""
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  src="img/lightsout.jpeg"
+                />
+                <div data-aos="fade-right" data-aos-duration="1000">
+                  <p>
+                    Lights Out is a customizable and responsive game that I
+                    created based on Colt Steele's Lights Out project. Users can
+                    specify the number of rows and columns they want to play
+                    with, and the game adapts accordingly. The game's interface
+                    is clean and user-friendly, providing a seamless experience
+                    for players. To build this project, I used React for the
+                    front-end and CSS for styling. The game is optimized for
+                    various screen sizes, ensuring that users can enjoy it on
+                    any device. Overall, Lights Out showcases my ability to
+                    create engaging and responsive applications using modern web
+                    development tools.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <a href="https://todo-react-aamod.netlify.app/" target="_blank"
+                ><h3>5. React TODO App with Context, Hooks, and Reducers</h3></a
+              >
+              <div class="grid 3">
+                <img
+                  alt=""
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                  src="img/todos.png"
+                />
+                <div data-aos="fade-left" data-aos-duration="1000">
+                  <p>
+                    I developed a Todo List application using React, based on
+                    Colt Steele's popular project. The app allows users to add,
+                    delete, and mark todos as completed. To enhance the user
+                    experience, I implemented both light and dark color schemes
+                    for the app, making it easier on the eyes. Additionally, I
+                    added a "Restore Todos" button that restores two default
+                    todos in the app if they are accidentally deleted. The app
+                    is fully responsive and can be used on any device. Overall,
+                    this project showcases my ability to create a
+                    fully-functional web application using React and add custom
+                    features to improve the user experience.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ol>
         </div>
-    </section>
-    <section data-aos="fade-up" id="contact">
+      </section>
+      <section data-aos="fade-up" id="contact">
         <div class="container form">
-            <h2>Contact Me</h2>
-            <form action="https://formspree.io/f/mrgvybde"
-                  class="contact-form"
-                  data-aos="zoom-in"
-                  data-aos-duration="800" data-aos-easing="ease-in-back" method="POST"
-            >
-                <label for="name">Name:
-                </label><input id="name" name="name" required type="text">
-                <label for="email">Email:
-                </label><input id="email" name="email" required type="email">
-                <label for="message">Message:
-                </label><textarea id="message" name="message" required></textarea>
-                <button class="btn send-btn" type="submit">Send</button>
-            </form>
+          <h2>Contact Me</h2>
+          <form
+            action="https://formspree.io/f/mrgvybde"
+            class="contact-form"
+            data-aos="zoom-in"
+            data-aos-duration="800"
+            data-aos-easing="ease-in-back"
+            method="POST"
+          >
+            <label for="name">Name: </label
+            ><input id="name" name="name" required type="text" />
+            <label for="email">Email: </label
+            ><input id="email" name="email" required type="email" />
+            <label for="message">Message: </label
+            ><textarea id="message" name="message" required></textarea>
+            <button class="btn send-btn" type="submit">Send</button>
+          </form>
         </div>
-    </section>
-</main>
-<footer>
-    <p>Copyright &copy; Aamod Vardhan Pandey</p>
-    <a class="social-icons" href="https://www.linkedin.com/in/aamod-vardhan-pandey-62a80b234/"
-       target="_blank">
-        <img alt="" src="img/linkedin.png"
-             style=" width: 90%; height: 90%">
-    </a>
-
-</footer>
-<script src="script.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>AOS.init();</script>
-</body>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; Aamod Vardhan Pandey</p>
+      <a
+        class="social-icons"
+        href="https://www.linkedin.com/in/aamod-vardhan-pandey-62a80b234/"
+        target="_blank"
+      >
+        <img alt="" src="img/linkedin.png" style="width: 90%; height: 90%" />
+      </a>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
