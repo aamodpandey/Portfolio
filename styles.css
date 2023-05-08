@@ -139,10 +139,10 @@ a {
 
 .btn {
   display: inline-block;
-  padding: 1.2rem 1.8rem;
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: 0.1875rem;
+  padding: 1.2rem 1.8rem;
   border: none;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -264,7 +264,12 @@ nav a {
   margin: 0 auto;
   letter-spacing: 2px;
 }
-
+.cta-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+}
 /* About section */
 #about {
   background-color: #003a6e;
@@ -368,9 +373,7 @@ nav a {
   transition: all 0.3s ease-in-out;
   background-color: #1e90ff;
   color: #fff;
-  padding: 1.2rem 1.8rem;
   border: 0.0625rem solid white;
-
   border-radius: 0.3rem;
 }
 .resume-btn {
@@ -655,7 +658,14 @@ footer p {
     left: 50%;
   }
 }
-
+@media (max-width: 622px) {
+  .cta-wrapper {
+    flex-direction: column;
+  }
+  .btn:first-of-type {
+    margin-bottom: 2rem;
+  }
+}
 .form {
   color: black;
 }
