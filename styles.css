@@ -30,7 +30,7 @@ body {
 }
 
 button,
-.contact-button {
+.contact-btn {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
 }
@@ -139,19 +139,16 @@ a {
 
 .btn {
   display: inline-block;
-  padding: 1.9rem 4rem;
-  background-color: #1e90ff;
-  color: #fff;
+  padding: 1.2rem 1.8rem;
   font-size: 1.2rem;
   text-transform: uppercase;
-  letter-spacing: 3px;
-  border-radius: 50px;
+  letter-spacing: 0.1875rem;
   border: none;
   transition: all 0.3s ease;
   cursor: pointer;
 }
 
-.btn:hover {
+.contact-btn:hover {
   background-color: #6fbfff !important;
   color: #333;
 }
@@ -367,10 +364,26 @@ nav a {
   padding: 1.25rem;
 }
 
-.contact-button {
+.contact-btn {
   transition: all 0.3s ease-in-out;
-}
+  background-color: #1e90ff;
+  color: #fff;
+  padding: 1.2rem 1.8rem;
+  border: 0.0625rem solid white;
 
+  border-radius: 0.3rem;
+}
+.resume-btn {
+  color: white;
+  background-color: #003a6e;
+  border: 0.0625rem solid white;
+  transition: all 0.3s ease-in-out;
+  border-radius: 0.1rem;
+}
+.resume-btn:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
 .send-btn {
   padding: 1rem 2rem;
 }
