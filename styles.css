@@ -436,21 +436,27 @@ footer {
 footer p {
   margin-bottom: 1.25rem;
 }
-
-.social-icons {
+.socials-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-icon {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 3.5rem;
   height: 3.5rem;
-  background-color: white;
-  margin: 0 auto;
-  border-radius: 4px;
+  margin: 0 0.5rem;
+  transition: opacity 0.2s;
 }
-
-.social-icons:hover,
-.social-icons:active {
-  box-shadow: inset 0 0 0 0.2rem #0077b7;
+.social-icon img {
+  width: 100%;
+  height: 100%;
+}
+.social-icon:hover,
+.social-icon:active {
+  opacity: 0.8;
 }
 
 .collapsible.show {
