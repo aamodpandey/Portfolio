@@ -254,7 +254,7 @@ nav a {
 }
 
 #home p {
-  max-width: 43.75;
+  max-width: 43.75 rem;
   margin: 0 auto;
   letter-spacing: 2px;
 }
