@@ -153,8 +153,9 @@ header {
   top: 0;
   left: 0;
   width: 100vw;
-  background-color: rgba(34, 47, 31, 0.8);
+  background-color: rgba(40, 71, 55, 0.8);
   z-index: 999;
+  box-shadow: 0.1rem 0.1rem 1rem #000;
 }
 
 nav {
@@ -212,13 +213,13 @@ nav a {
 }
 
 .dark-overlay {
-  /* position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: -1; */
+  z-index: -1;
+  backdrop-filter: blur(3px);
 }
 
 #home h1 {
@@ -259,8 +260,8 @@ nav a {
   letter-spacing: 2px;
 }
 .cta-wrapper {
-  display: flex;
-  justify-content: space-around;
+  /* display: flex; */
+  /* justify-content: space-around; */
   align-items: center;
   margin-top: 2rem;
 }
@@ -368,7 +369,7 @@ nav a {
   background-color: #1e90ff;
   color: #fff;
   border: 0.0625rem solid white;
-  border-radius: 0.3rem;
+  margin-left: 0.5rem;
 }
 .resume-btn {
   color: white;
@@ -376,6 +377,7 @@ nav a {
   border: 0.0625rem solid white;
   transition: all 0.3s ease-in-out;
   border-radius: 0.1rem;
+  margin-right: 0.5rem;
 }
 .resume-btn:hover {
   background-color: rgba(255, 255, 255, 0.25);
